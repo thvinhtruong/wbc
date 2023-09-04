@@ -3,13 +3,13 @@ main:
     url: "/about/"
     weight: 2
   - name: "FOR SCHOOL"
-    url: "/team/"
+    url: "/forschool/"
     weight: 3
   - name: "FOR CLUBS"
-    url: "/team/"
+    url: "/forcircles/"
     weight: 4
   - name: "JOIN US"
-    url: "/contact/"
+    url: "/joinus/"
     weight: 5
   - name: "REGISTER / LOGIN"
     url: "/login/"

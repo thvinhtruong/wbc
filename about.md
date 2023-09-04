@@ -36,3 +36,16 @@ Những gì sẽ diễn ra trong wellbeing circles?
 
 # Câu Chuyện
 <iframe width="560" height="315" src="https://www.youtube.com/embed/mbQa2VWcFiI?si=rqGQ7oF0b4kksz-G" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+---
+# Bạn hứng thú, hãy tham gia cùng chúng tôi!
+<div class="col-auto">
+    <a class="button button-primary" href="/login">Join us</a>
+</div>
+
+---
+
+&copy; 2023 Wellbeing circles. All rights reserved.
+
