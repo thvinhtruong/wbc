@@ -40,29 +40,31 @@ bodyClass: "page-home"
     </div>
     <div class="row justify-content-center">
       <div class="col-auto">
-        <a class="button button-primary" href="{{ "services" | relative_url }}">View All Services</a>
+        <a class="button button-primary" href="{{ "services" | relative_url }}">Những sự kiện diễn ra trong tháng</a>
       </div>
     </div>
   </div>
 </div>
 
-{% if site.data.features %}
+{% if site.data.corevalue %}
 <div class="strip strip-grey">
   <div class="container pt-6 pb-6 pt-md-10 pb-md-10">
+    <div class="col-auto">
+      <h2 class="strip-title">Giá trị cốt lõi của dự án</h2>
+      <p class="strip-content">Wellbeing Circle cam kết với với 3 giá trị: </p>
+    </div>
     <div class="row justify-content-center">
-
-      {% for feature in site.data.features %}
+      {% for corevalue in site.data.corevalue %}
       <div class="col-12 col-md-6 col-lg-4 mb-2">
-        <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+        <div class="corevalue">
+          {% if corevalue.image %}
+          <div class="corevalue-image"><img alt="{{ corevalue.title }} logo" src="{{ corevalue.image.url | relative_url }}" width="{{ corevalue.image.width }}" height="{{ corevalue.image.height }}" /></div>
           {% endif %}
-          <h2 class="feature-title">{{ feature.title }}</h2>
-          <div class="feature-content">{{ feature.description }}</div>
+          <h2 class="corevalue-title">{{ corevalue.title }}</h2>
+          <div class="corevalue-content">{{ corevalue.description }}</div>
         </div>
       </div>
       {% endfor %}
-
     </div>
   </div>
 </div>
