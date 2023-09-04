@@ -1,18 +1,18 @@
 main:
   - name: "ABOUT"
-    url: "/services/"
+    url: "/about/"
     weight: 2
   - name: "FOR SCHOOL"
     url: "/team/"
     weight: 3
   - name: "FOR CLUBS"
-    url: "/about/"
+    url: "/team/"
     weight: 4
   - name: "JOIN US"
     url: "/contact/"
     weight: 5
   - name: "REGISTER / LOGIN"
-    url: "/contact/"
+    url: "/login/"
     weight: 6
   - name: "FAQ"
     url: "/contact/"
@@ -25,3 +25,6 @@ footer:
   - name: "Contact"
     url: "/contact/"
     weight: 2
+  - name: "Leave a message"
+    url: "/contact/"
+    weight: 3
